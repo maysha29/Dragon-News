@@ -4,9 +4,9 @@ import Header from '../Components/Header';
 
 const HomeLayout = () => {
     return (
-        <div>
+        <div className="w-full">
             <header>
-                <Header></Header>
+            <Header/>
             </header>
             <main>
                 <section className="left_nav"></section>
