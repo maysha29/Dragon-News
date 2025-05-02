@@ -3,9 +3,9 @@ import { NavLink } from 'react-router';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between items-center'>
             <div></div>
-            <div className='flex gap-5 '>
+            <div className='flex gap-5 text-accent'>
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/about'>About</NavLink>
                 <NavLink to='/career'>Career</NavLink>
